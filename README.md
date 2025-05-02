@@ -65,7 +65,7 @@ Default: 1000 ms
 | -------- | ------------------- |
 | VCC      | Power supply (3.3V) |
 | GND      | Ground              |
-| SCL      | Srial clock         |
+| SCL      | Serial clock        |
 | SDA      | Serial data input   |
 | CSB      | Chip select         |
 | SDO      | Serial data output  |

@@ -8,3 +8,6 @@ dependencies = []
 
 [tool.ruff]
 ignore = ["F401"]  # Ignore unused imports
+
+[tool.mypy]
+ignore_missing_imports = true
