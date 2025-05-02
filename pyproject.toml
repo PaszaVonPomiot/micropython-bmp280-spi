@@ -1,0 +1,10 @@
+[project]
+name = "micropython-bmp280-spi"
+version = "0.1.0"
+description = "Wrapper around BMP280 sensor library for Raspberry Pico using SPI"
+readme = "README.md"
+requires-python = ">=3.13"  # for type annotations only
+dependencies = []
+
+[tool.ruff]
+ignore = ["F401"]  # Ignore unused imports
