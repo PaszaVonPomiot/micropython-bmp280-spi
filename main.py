@@ -14,7 +14,7 @@ def main():
 
     while True:
         logger.process_record(record=sensor.get_csv_record())
-        time.sleep(1.0)
+        time.sleep(60.0)
 
 
 if __name__ == "__main__":
