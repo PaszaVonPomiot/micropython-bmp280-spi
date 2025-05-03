@@ -13,6 +13,7 @@ Micropython wrapper around BMP280 (HW-611 E/P 280) sensor library for Raspberry 
 -   [pico-bmp280](https://github.com/flrrth/pico-bmp280) - sensor library
 
 ## Installation
+1. Configure pins in `config/board.py` file.
 1. Adjust the `main.py` and `boot.py` files to your needs.
 1. Copy all *.py files to the root of your Pico filesystem. Retain the directory structure.
 
