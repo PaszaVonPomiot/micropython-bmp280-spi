@@ -3,7 +3,7 @@ from config.board import BMP280Pin
 from config.sensors import get_bmp280_config
 from core.base import BaseSpiGpio
 from core.rtc import clock
-from core.spi import spi_factory
+from core.bus import spi_factory
 from machine import Pin
 
 
